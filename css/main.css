@@ -1,0 +1,156 @@
+/*** General Assets ***/
+@font-face {
+    font-family: "FranklinGothicBookDwnld";
+    src: url("../Fonts/Franklin_Gothic_Book/franklin_gothic_book_regular.woff");
+    src: url("../Fonts/Franklin_Gothic_Book/franklin_gothic_book_regular.woff2")
+}
+
+:root {
+    --turquoise: #a2d3bc;
+    --darkGreen: #689380;
+    --white: #FFFFFF;
+    --black: #000000;
+}
+
+/* Defining body attributes */
+body {
+    background: var(--white);
+    font-family: Lora, Georgia, 'Times New Roman', Times, serif;
+}
+
+.sans-serif {
+    font-family: Roboto, Helvetica, sans-serif;
+}
+
+#main {
+    width: 100%;
+    position: relative;
+    top: 50px;
+}
+
+nav {
+    width: 100%;
+    position: relative;
+    top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul {
+    width: fit-content;
+    position: relative;
+    right: 0px;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 90%;
+    max-width: 550px;
+}
+
+nav ul li a {
+    font-size: 19px;
+    font-weight: 600;
+    color: var(--black);
+    text-decoration: none;
+}
+
+/* Defining the content box attributes */
+.content_box {
+    display: grid;
+    margin-top: 30px;
+    background-color: var(--secondaryGreen);
+    width: 100%;
+    border-radius: 30px;
+}
+
+.page_content {
+    padding-bottom: 30px;
+    color: var(--black);
+}
+
+.content_box h1 {
+    font-size: 20px;
+}
+
+.content_box p {
+    font-size: 19px;
+}
+
+@media (min-width: 576px) {
+    nav ul {
+        width: 50%
+    }
+
+    nav ul li a {
+        font-size: 22px;
+    }
+
+    /* Defining the font sizes for the content box */
+    .content_box h1 {
+        /*font-size: 30px;*/
+        /*color: var(--white);*/
+    }
+
+    .content_box p {
+        font-size: 20px;
+    }
+
+}
+
+@media (min-width: 768px) {
+
+    /* Defining the font sizes for the content box */
+    .content_box h1 {
+        /*font-size: 32px;*/
+        /*color: var(--white);*/
+    }
+
+    .content_box p {
+        font-size: 26px;
+        margin-bottom: 7px;
+    }
+}
+
+@media (min-width: 992px) {
+
+    /* Defining the font sizes for the content box */
+    .content_box h1 {
+        /*font-size: 39px;*/
+        /*color: var(--white);*/
+    }
+
+    .content_box p {
+        font-size: 22px;
+    }
+
+}
+
+@media (min-width: 1200px) {
+
+    /* Defining the font sizes for the content box */
+    .content_box h1 {
+        /*font-size: 43px;*/
+        /*color: var(--white);*/
+    }
+
+    .content_box p {
+        font-size: 23px;
+    }
+
+}
+
+
+@media (min-width: 1400px) {
+
+    /* Defining the font sizes for the content box */
+    .content_box h1 {
+        /*font-size: 30px;*/
+        /*color: var(--white);*/
+    }
+
+    .content_box p {
+        font-size: 26px;
+    }
+
+}

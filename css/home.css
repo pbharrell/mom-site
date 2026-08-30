@@ -1,0 +1,325 @@
+:root {
+    --turquoise: #a2d3bc;
+    --darkGreen: #689380;
+    --white: #FFFFFF;
+    --black: #000000;
+}
+
+@media (max-width: 576px) {
+    #title_profile_container {
+        top: -10px;
+        margin-bottom: -45px;
+    }
+
+    #title_profile_wrapper {
+        padding-top: -30px;
+    }
+
+    #profile_container {
+        width: 140px;
+        height: 140px;
+        top: 30px;
+    }
+}
+
+@media (max-width: 767px) and (min-width: 576px) {
+    #title_profile_container {
+        top: -10px;
+        margin-bottom: -60px;
+    }
+
+    #title_profile_wrapper {
+        padding-top: -40px;
+    }
+
+    #profile_container {
+        width: 180px;
+        height: 180px;
+        top: 40px;
+    }
+}
+
+.title-header {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+}
+
+/* Defining for specifically the about header */
+.home-header {
+    text-align: center;
+    position: relative;
+    top: 40px;
+}
+
+.home-header .home-box {
+    align-items: center;
+    justify-content: space-between;
+}
+
+.home-header .intro-text {
+    margin-top: 30px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.home-header .intro-text div {
+    text-align: center;
+    width: fit-content;
+}
+
+.home-header .intro-text h1 {
+    font-size: 70px;
+    margin: 0px;
+    line-height: 1;
+}
+
+.home-header h2 {
+    color: var(--black);
+    font-size: 29px;
+    line-height: 1;
+    margin-bottom: 8px;
+}
+
+.home-header h3 {
+    font-size: 23px;
+    margin: 0px;
+    line-height: 1.1;
+    font-weight: 100;
+    margin-top: 8px;
+}
+
+.home-header h4 {
+    font-size: 20px;
+    margin: 0px;
+    line-height: 1.1;
+    font-weight: 100;
+    margin-top: 5px;
+}
+
+
+.home-header .intro-image img {
+    filter: contrast(1.3) brightness(.90);
+    padding-top: 0px;
+    width: 100%;
+    border: .4rem solid;
+    border-color: var(--primaryGreen);
+    border-radius: 2.5%;
+}
+
+;
+
+
+.content_box h1 {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.content_box p {
+    font-size: 15px;
+}
+
+.content_box li {
+    font-size: 15px;
+}
+
+#contact .content_box h1 {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+#contact .content_box p {
+    font-size: 18px;
+}
+
+.content_box .header {
+    font-size: 24px;
+    font-weight: 400;
+    border-bottom: 2px solid black;
+    margin-bottom: 13px;
+}
+
+#contact .content_box .header {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+@media (min-width: 576px) {
+    .home-header .intro-text h1 {
+        font-size: 85px;
+        margin: 0px;
+        line-height: 1;
+    }
+
+    .home-header h3 {
+        /*font-size: 52px;*/
+        margin: 0px;
+        line-height: 1.1;
+    }
+
+    /* Defining for specifically the about box */
+    .content_box .container-fluid .row {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+
+}
+
+@media (min-width: 768px) {
+    #title_profile_wrapper {
+        margin-bottom: -170px;
+    }
+
+    .home-header .home-box {
+        flex-direction: row;
+        margin-top: 30px;
+    }
+
+    .home-header .intro-text {
+        margin-top: 0px;
+    }
+
+    .home-header .intro-text div {
+        text-align: right;
+    }
+
+
+    .home-header .intro-text h1 {
+        font-size: 80px;
+        margin: 0px;
+        line-height: 1;
+    }
+
+    .home-header h2 {
+        font-size: 31px;
+    }
+
+    .home-header h3 {
+        font-size: 22px;
+        margin: 0px;
+        line-height: 1.1;
+    }
+
+    .home-header .intro-image img {
+        padding-top: 0px;
+        width: 100%;
+        border: .4rem solid;
+        border-color: var(--primaryGreen);
+        border-radius: 2.5%;
+    }
+
+    /* Defining for specifically the about box */
+    .content_box .container-fluid .row {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+
+}
+
+@media (min-width: 992px) {
+    #title_profile_wrapper {
+        margin-bottom: -205px;
+    }
+
+    /* Defining for specifically the about header */
+    .home-header .intro-text h1 {
+        font-size: 98px;
+        margin: 0px;
+        line-height: 1;
+    }
+
+    .home-header h2 {
+        font-size: 38px;
+    }
+
+    .home-header h3 {
+        font-size: 28px;
+        margin: 0px;
+        line-height: 1.1;
+    }
+
+    .home-header h4 {
+        font-size: 24px;
+    }
+
+    .home-header .intro-image img {
+        padding-top: 0px;
+        width: 100%;
+        border: .4rem solid;
+        border-color: var(--primaryGreen);
+        border-radius: 2.5%;
+    }
+
+    /* Defining for specifically the about box */
+    .content_box .container-fluid .row {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+}
+
+@media (min-width: 1200px) {
+    #title_profile_wrapper {
+        margin-bottom: -215px;
+    }
+
+    /* Defining for specifically the about header */
+    .home-header .intro-text h1 {
+        font-size: 112px;
+        margin: 0px;
+        line-height: 1;
+    }
+
+    .home-header h3 {
+        /*font-size: 57px;*/
+        margin: 0px;
+        line-height: 1.1;
+    }
+
+    .home-header .intro-image img {
+        padding-top: 0px;
+        width: 100%;
+        border: .4rem solid;
+        border-color: var(--primaryGreen);
+        border-radius: 2.5%;
+    }
+
+}
+
+
+@media (min-width: 1400px) {
+    #title_profile_wrapper {
+        margin-bottom: -210px;
+    }
+
+    /* Defining for specifically the about header */
+    .home-header .intro-text h1 {
+        font-size: 148px;
+        margin: 0px;
+        line-height: 1;
+    }
+
+    .home-header h2 {
+        font-size: 45px;
+    }
+
+    .home-header h3 {
+        font-size: 32px;
+        margin: 0px;
+        line-height: 1.1;
+    }
+
+    .home-header .intro-image img {
+        padding-top: 0px;
+        width: 100%;
+        border: .4rem solid;
+        border-color: var(--primaryGreen);
+        border-radius: 2.5%;
+    }
+
+}
